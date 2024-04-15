@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-part of webcrypto;
+part of 'webcrypto.dart';
 
 /// Key for signing/verifying with HMAC.
 ///
@@ -197,7 +197,7 @@ abstract class HmacSecretKey {
   /// timing attacks. To validate signatures use [verifyBytes] or [verifyStream]
   /// instead, these methods computes a signature and does a
   /// fixed-time comparison.
-  /// {@template}
+  /// {@endtemplate}
   Future<Uint8List> signBytes(List<int> data);
 
   /// Compute an HMAC signature of given [data] stream.
