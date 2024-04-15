@@ -48,8 +48,6 @@ android {
         jvmTarget = '1.8'
     }
 
-    namespace 'com.example.webcrypto'
-
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
